@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>First Page!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the first page!">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>First Page</h1>
+    </header>
+
+    <section id="form">
+        <header>
+            <h3>Lets play some games!</h3>
+        </header>
+        <form>
+            <input type="text" name="color_name" id="color_name" placeholder="Enter a color name" oninput="changeColorByName()">
+
+            <label for="colorPicker">Select a color:</label>
+            <input type="color" name="colorPicker" id="colorPicker" oninput="changeBackgroundColor()">
+        </form>
+    </section>
+</body>
+</html>
